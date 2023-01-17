@@ -1,1 +1,1 @@
-/boot/cmdline.txt
+console=tty1 root=PARTUUID=6afb0a1c-02 rootfstype=ext4 fsck.repair=yes rootwait fbcon=map:10 dtoverlay=pi3-miniuart-bt
