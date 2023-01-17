@@ -1,0 +1,7 @@
+.vscode
+*.swp
+*.swo
+*.bkp
+printer-*.cfg
+*.bak
+moonraker.secrets
