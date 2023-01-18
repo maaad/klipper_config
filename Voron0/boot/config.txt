@@ -38,16 +38,15 @@
 #uncomment to overclock the arm. 700 MHz is the default.
 #arm_freq=800
 
-temp_soft_limit=65
-
 # Uncomment some or all of these to enable the optional hardware interfaces
-#dtparam=i2c_arm=on
+dtparam=i2c_arm=on
 #dtparam=i2s=on
 dtparam=spi=on
 
 # Uncomment this to enable infrared communication.
 #dtoverlay=gpio-ir,gpio_pin=17
 #dtoverlay=gpio-ir-tx,gpio_pin=18
+
 # Additional overlays and parameters are documented /boot/overlays/README
 
 # Enable audio (loads snd_bcm2835)
@@ -78,10 +77,16 @@ otg_mode=1
 dtoverlay=vc4-fkms-v3d
 # Run as fast as firmware / board allows
 arm_boost=1
+gpu_mem=256
 
 [all]
-# enable raspicam
-start_x=1
 gpu_mem=128
-initramfs initrd.img-5.15.61-v7+-overlay
 dtoverlay=pi3-miniuart-bt
+
+
+[pi3]
+gpu_mem=256
+
+
+[pi0]
+gpu_mem=160
