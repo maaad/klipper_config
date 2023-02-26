@@ -80,9 +80,9 @@ arm_boost=1
 gpu_mem=256
 
 [all]
-gpu_mem=128
+gpu_mem=16
 dtoverlay=pi3-miniuart-bt
-
+dtoverlay=dht11,gpiopin=4
 
 [pi3]
 gpu_mem=256
