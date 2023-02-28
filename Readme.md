@@ -12,10 +12,18 @@ That's repo is a backup for all my home printers configs
 - Umbilical PCB
 - DHT11 Chassis Sensor
 - WS2812B LED Strips
-- Filament Runout Sensor
+- Custom Filament Runout Sensor
 - Raspberry Pi Camera
 - SideSwipe Probe
 
 ![alt text](v0.png "v0 Fluidd")
+
 ## Ender 3 Pro
-Coming soon
+- SKR Pico + Raspberry Pi 3B+
+- E3D Volcano Hotend Direct Drive
+- BMG Clone
+- FlipperScreen with MKS TFT35 v2.0
+- ADXL345
+- BLTouch Clone
+- Custom Filament Runout Sensor
+- RTSP Camera
