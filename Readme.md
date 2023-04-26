@@ -4,7 +4,12 @@
 That's repo is a backup for all my home printers configs
 
 ## Voron 0.1
-- LDO Motors
+- Part Fans: 2x GDStime GDB3010 DC24V 0.05A
+- Hotend Fan: Sunon MagLev MC30060V2-000C-A99 DC5V 0.36W 
+- LDO Motors: 
+ - X/Y: 1.8° NEMA14 Stepper Motor HT LDO-35STH52-1504AH(VRN)
+ - Z: 1.8° NEMA17 Stepper Motor LDO-42STH25-1004CL200ET(VRN
+ - E: 1.8° 36mm Round Pancake Stepper LDO-36STH20-1004AHG(VRN)
 - SKR Pico + Raspberry Pi 3B+
 - BTT ADXL345
 - Mellow Dragonfly BMO
