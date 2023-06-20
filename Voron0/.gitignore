@@ -5,3 +5,4 @@
 printer-*.cfg
 *.bak
 moonraker.secrets
+crowsnest.conf.*
