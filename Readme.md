@@ -4,6 +4,8 @@
 That's repo is a backup for all my home printers configs
 
 ## Voron 0.1
+- Mellow Dragonfly BMO
+- Sherpa Micro Extruder
 - Part Fans: 2x GDStime GDB3010 DC24V 0.05A
 - Hotend Fan: Sunon MagLev MC30060V2-000C-A99 DC5V 0.36W 
 - LDO Motors: 
@@ -12,21 +14,20 @@ That's repo is a backup for all my home printers configs
  - E: 1.8° 36mm Round Pancake Stepper LDO-36STH20-1004AHG(VRN)
 - SKR Pico + Raspberry Pi 3B+
 - BTT ADXL345
-- Mellow Dragonfly BMO
 - Voron OLED LCD
 - Umbilical PCB
 - DHT11 Chassis Sensor
 - WS2812B LED Strips
 - Custom Filament Runout Sensor
 - Raspberry Pi Camera
-- SideSwipe Probe
+- ZeroClick Probe
 
 ![alt text](v0.png "v0 Fluidd")
 
 ## Ender 3 Pro
+- Ender 3 Pro kit
 - SKR Pico + Raspberry Pi 3B+
-- E3D Volcano Hotend Direct Drive
-- BMG Clone
+- Sprite Extruder Pro
 - FlipperScreen with MKS TFT35 v2.0
 - ADXL345
 - BLTouch Clone
