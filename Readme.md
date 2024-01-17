@@ -26,6 +26,7 @@ That's repo is a backup for all my home printers configs
 
 ## Ender 3 Pro
 - Ender 3 Pro kit
+- US-17HS4023 extruder motor
 - SKR Pico + Raspberry Pi 3B+
 - Sprite Extruder Pro
 - FlipperScreen with MKS TFT35 v2.0
@@ -33,3 +34,6 @@ That's repo is a backup for all my home printers configs
 - BLTouch Clone
 - Custom Filament Runout Sensor
 - RTSP Camera
+- WS2812B Led strip
+
+
