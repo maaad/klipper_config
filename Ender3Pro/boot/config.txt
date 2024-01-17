@@ -53,7 +53,7 @@ dtparam=spi=on
 dtparam=audio=on
 
 # Automatically load overlays for detected cameras
-camera_auto_detect=1
+#camera_auto_detect=1
 
 # Automatically load overlays for detected DSI displays
 display_auto_detect=1
@@ -76,6 +76,7 @@ otg_mode=1
 [pi4]
 # Run as fast as firmware / board allows
 arm_boost=1
+gpu_mem=256
 
 [all]
 
@@ -92,3 +93,14 @@ display_rotate=0
 dtparam=spi=on
 dtoverlay=tinylcd35,touch,touchgpio=5
 dtparam=xohms=150
+
+dtoverlay=pi3-miniuart-bt
+start_x=1
+
+
+[pi3]
+gpu_mem=256
+
+
+[pi0]
+gpu_mem=160
